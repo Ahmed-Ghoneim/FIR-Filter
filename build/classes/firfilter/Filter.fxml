@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import firfilter.IntegerTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="453.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="firfilter.FilterController">
+    <children>
+        <IntegerTextField fx:id="newValue" layoutX="137.0" layoutY="257.0" prefHeight="35.0" prefWidth="179.0" promptText="Type your new value here..." />
+      <Button fx:id="addValue" defaultButton="true" layoutX="246.0" layoutY="313.0" onAction="#addNewValue" prefHeight="35.0" prefWidth="97.0" text="Add value" />
+      <Button fx:id="close" cancelButton="true" layoutX="112.0" layoutY="313.0" onAction="#close" prefHeight="35.0" prefWidth="97.0" text="Exit" />
+      <TextArea fx:id="showArea" editable="false" layoutX="46.0" layoutY="37.0" prefHeight="181.0" prefWidth="373.0" />
+    </children>
+</AnchorPane>
